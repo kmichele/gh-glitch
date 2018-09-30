@@ -506,3 +506,9 @@ h1 {
     }
   }
 }
+
+@media screen and (min-width: 800px) {
+  .black-box {
+    padding: 8em;
+  }
+}
