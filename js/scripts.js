@@ -2,11 +2,11 @@ $(window).scroll(function() {
   parallax();
 })
 
-$("#future").click(function(){
-  if (document.getElementById("audio2").paused) {
-  document.getElementById("audio2").play()
+$("#frequencies").click(function(){
+  if (document.getElementById("audio").paused) {
+  document.getElementById("audio").play()
 } else {
-  document.getElementById("audio2").pause()
+  document.getElementById("audio").pause()
 }
 })
 
