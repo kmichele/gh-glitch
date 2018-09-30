@@ -2,13 +2,6 @@ $(window).scroll(function() {
   parallax();
 })
 
-// $("#frequencies").click(function(){
-//   if (document.getElementById("audio").paused) {
-//   document.getElementById("audio").play()
-// } else {
-//   document.getElementById("audio").pause()
-// }
-// })
 $("#future").click(function(){
   if (document.getElementById("audio2").paused) {
   document.getElementById("audio2").play()
